@@ -1,0 +1,31 @@
+sudo docker run image-recognition
+2024-10-15 21:27:48.418020: I tensorflow/tsl/cuda/cudart_stub.cc:28] Could not find cuda drivers on your machine, GPU will not be used.
+2024-10-15 21:27:49.096671: I tensorflow/tsl/cuda/cudart_stub.cc:28] Could not find cuda drivers on your machine, GPU will not be used.
+2024-10-15 21:27:49.099461: I tensorflow/core/platform/cpu_feature_guard.cc:182] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2024-10-15 21:27:52.015595: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Could not find TensorRT
+Downloading data from https://www.cs.toronto.edu/~kriz/cifar-10-python.tar.gz
+170498071/170498071 [==============================] - 2s 0us/step
+2024-10-15 21:28:03.155935: W tensorflow/tsl/framework/cpu_allocator_impl.cc:83] Allocation of 614400000 exceeds 10% of free system memory.
+Epoch 1/10
+1563/1563 [==============================] - 55s 34ms/step - loss: 1.5011 - accuracy: 0.4518 - val_loss: 1.2954 - val_accuracy: 0.5408
+Epoch 2/10
+1563/1563 [==============================] - 53s 34ms/step - loss: 1.1475 - accuracy: 0.5924 - val_loss: 1.0822 - val_accuracy: 0.6198
+Epoch 3/10
+1563/1563 [==============================] - 51s 32ms/step - loss: 0.9997 - accuracy: 0.6508 - val_loss: 1.0058 - val_accuracy: 0.6519
+Epoch 4/10
+1563/1563 [==============================] - 50s 32ms/step - loss: 0.9009 - accuracy: 0.6857 - val_loss: 0.9208 - val_accuracy: 0.6794
+Epoch 5/10
+1563/1563 [==============================] - 53s 34ms/step - loss: 0.8269 - accuracy: 0.7110 - val_loss: 0.9589 - val_accuracy: 0.6716
+Epoch 6/10
+1563/1563 [==============================] - 51s 32ms/step - loss: 0.7741 - accuracy: 0.7310 - val_loss: 0.8768 - val_accuracy: 0.6979
+Epoch 7/10
+1563/1563 [==============================] - 52s 33ms/step - loss: 0.7197 - accuracy: 0.7487 - val_loss: 0.8964 - val_accuracy: 0.7040
+Epoch 8/10
+1563/1563 [==============================] - 51s 32ms/step - loss: 0.6781 - accuracy: 0.7635 - val_loss: 0.8619 - val_accuracy: 0.7145
+Epoch 9/10
+1563/1563 [==============================] - 51s 33ms/step - loss: 0.6383 - accuracy: 0.7771 - val_loss: 0.8805 - val_accuracy: 0.7054
+Epoch 10/10
+1563/1563 [==============================] - 52s 33ms/step - loss: 0.6002 - accuracy: 0.7894 - val_loss: 0.8651 - val_accuracy: 0.7145
+313/313 - 3s - loss: 0.8651 - accuracy: 0.7145 - 3s/epoch - 9ms/step
+Test accuracy: 0.7145000100135803
